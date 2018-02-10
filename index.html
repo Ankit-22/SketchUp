@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sketch Up</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<nav id = "navbar" class="navbar navbar-expand-sm bg-dark">
+		<div id = "brushTool" style = "display: inline-flex;" class = "mr-auto"></div>
+		<button type="button" class="btn btn-primary">Erase</button>&emsp;
+		<button type="button" class="btn btn-primary">Clear</button>&emsp;
+		<button type="button" class="btn btn-primary mr-auto">Save</button>&emsp;
+		<div class="pallete">
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<canvas id = "myCanvas"></canvas>
+	</div>
+	<script type="text/javascript" src="pubsub.js"></script>
+	<script type="text/javascript" src="canvas.js"></script>
+	<script type="text/javascript" src="navbar.js"></script>
+	<script type="text/javascript" src="colorPallete.js"></script>
+	<script type="text/javascript" src="brushTool.js"></script>
+	<script type="text/javascript" src="misc.js"></script>
+</body>
+</html>
